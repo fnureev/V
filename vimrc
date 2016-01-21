@@ -13,7 +13,12 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 
+Plugin 'tobyS/vmustache'
+Plugin 'tobyS/pdv'
+Plugin 'adoy/vim-php-refactoring-toolbox'
+
 Plugin 'mhinz/vim-startify' " sudo apt-get install cowsay fortune
+
 Plugin 'scrooloose/syntastic' " pear install PHP_CodeSniffer + phpmd
 
 Plugin 'tpope/vim-fugitive' " sudo apt-get install git
@@ -48,6 +53,9 @@ try
     colorscheme jellybeans
 catch
 endtry
+
+" PDV
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 
 " табуляция
 set tabstop=4
