@@ -122,8 +122,12 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 
 " fugitive
-nmap <Leader>gs :Gstatus<CR>
-nmap <Leader>gb :Gblame<CR>
+nmap gs :Gstatus<CR>
+nmap gb :Gblame<CR>
+nmap gc :Gcommit<CR>
+nmap gp :Gpull<CR>
+nmap gm :Gmerge<CR>
+nmap gl :Glog<CR>
 
 " tabs
 :set tabpagemax=10
