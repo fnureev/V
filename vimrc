@@ -37,6 +37,8 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'sniphpets/sniphpets'
 
+Plugin 'evidens/vim-twig'
+
 call vundle#end()
 filetype plugin indent on
 
