@@ -8,7 +8,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'nanotech/jellybeans.vim'
 
 Plugin 'tpope/vim-surround'
+
 Plugin 'kien/ctrlp.vim'
+Plugin 'tacahiroy/ctrlp-funky'
+
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ConradIrwin/vim-bracketed-paste'
@@ -107,6 +110,10 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 let g:ctrlp_reuse_window = 'startify'
+
+let g:ctrlp_funky_multi_buffers = 1
+let g:ctrlp_funky_php_requires = 1
+let g:ctrlp_funky_php_include = 1
 
 " Syntastic
 set statusline+=%#warningmsg#
