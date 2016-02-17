@@ -80,6 +80,7 @@ let g:vim_tags_project_tags_command = "{CTAGS} -R {OPTIONS} {DIRECTORY} 2>/dev/n
 " gitgutter
 set updatetime=950
 let g:gitgutter_sign_column_always = 1
+let g:gitgutter_map_keys = 0
 
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -131,10 +132,13 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 " fugitive
 nmap gs :Gstatus<CR>
 nmap gb :Gblame<CR>
-nmap gc :Gcommit<CR>
-nmap gp :Gpull<CR>
-nmap gm :Gmerge<CR>
 nmap gl :Glog<CR>
+nmap gc :Gcommit<CR>
+nmap hs :GitGutterStageHunk<CR>
+nmap hr :GitGutterRevertHunk<CR>
+nmap hp :GitGutterPreviewHunk<CR>
+nmap hj :GitGutterNextHunk<CR>
+nmap hk :GitGutterPrevHunk<CR>
 
 " tabs
 :set tabpagemax=10
