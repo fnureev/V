@@ -78,7 +78,7 @@ let g:airline_right_sep = ''
 let g:vim_tags_project_tags_command = "{CTAGS} -R {OPTIONS} {DIRECTORY} 2>/dev/null"
 
 " gitgutter
-set updatetime=250
+set updatetime=950
 let g:gitgutter_sign_column_always = 1
 
 " UltiSnips
