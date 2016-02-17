@@ -20,7 +20,7 @@ Plugin 'tobyS/vmustache'
 Plugin 'tobyS/pdv'
 Plugin 'adoy/vim-php-refactoring-toolbox'
 
-Plugin 'mhinz/vim-startify' " sudo apt-get install cowsay fortune
+Plugin 'mhinz/vim-startify'
 
 Plugin 'scrooloose/syntastic' " pear install PHP_CodeSniffer + phpmd
 
