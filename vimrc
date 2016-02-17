@@ -36,7 +36,7 @@ Plugin 'joonty/vdebug' " sudo pecl install xdebug
 Plugin 'Shougo/vimproc' " vim +VimProcInstall +qall
 Plugin 'Shougo/vimshell.vim'
 
-Plugin 'SirVer/ultisnips'
+Plugin 'SirVer/ultisnips' " vim 7.4+
 Plugin 'honza/vim-snippets'
 Plugin 'sniphpets/sniphpets'
 
