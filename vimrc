@@ -47,7 +47,7 @@ filetype plugin indent on
 
 let mapleader = "\<Space>"
 
-" enbale the mouse
+" enable the mouse
 if has("mouse")
    set mouse=a
 endif
