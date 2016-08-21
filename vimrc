@@ -238,9 +238,8 @@ set novisualbell
 set vb t_vb=
 
 " бекапы
-set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/tmp
+set nobackup
+set noswapfile
 
 set cursorline
 
