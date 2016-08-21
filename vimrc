@@ -256,6 +256,9 @@ set splitright
 
 set matchpairs+=<:>
 
+set lazyredraw
+set ttyfast
+
 " This will allow Vim to use your custom .vimrc in the current working directory.
 " set exrc
 " set secure
