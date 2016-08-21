@@ -102,7 +102,7 @@ let g:vimshell_split_command = 'vsplit'
 
 " Xdebug
 let g:vdebug_options = {}
-let g:vdebug_options["port"] = 9901
+let g:vdebug_options["port"] = 9001
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'
