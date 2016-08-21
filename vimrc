@@ -108,7 +108,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
 
 " Startify
-" let g:startify_custom_header = map(split(system(''), '\n'), '"   ". v:val')
 let g:startify_change_to_vcs_root = 1
 let g:startify_session_persistence = 1
 let g:startify_bookmarks = ['~/.vim/vimrc','~/.zshrc','~/.oh-my-zsh/custom/themes/my-theme.zsh-theme',]
