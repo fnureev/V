@@ -200,8 +200,7 @@ endfunction
 :set tabline=%!MyTabLine()
 
 " ретаб + удаление trailing spaces
-" nmap <Leader>t :%retab<CR>:%s/\s\+$<CR>:noh<CR>
-" function! Trim() call Preserve('%s/\s\+$//e') endfunction
+nmap <Leader>t :%retab<CR>:%s/\s\+$<CR>:noh<CR>
 
 " NERDTree
 nmap <Leader>n :NERDTree<CR>
