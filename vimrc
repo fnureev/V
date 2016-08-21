@@ -94,7 +94,7 @@ autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
 autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 
 " vim-tags
-let g:vim_tags_project_tags_command = "{CTAGS} -R {OPTIONS} {DIRECTORY} 2>/dev/null"
+let g:vim_tags_project_tags_command = "phpctags -f .git/tags --fields=+l -R {DIRECTORY} 2>/dev/null"
 
 " gitgutter
 set updatetime=950
