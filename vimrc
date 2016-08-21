@@ -45,6 +45,8 @@ Plugin 'Valloric/YouCompleteMe' " https://github.com/Valloric/YouCompleteMe#full
 
 Plugin 'evidens/vim-twig'
 
+Plugin 'scrooloose/nerdcommenter'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -67,6 +69,12 @@ let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 
 let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+
+" nerdcommenter
+let g:NERDSpaceDelims = 1
+let g:NERDCompactSexyComs = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 
 " табуляция
 set tabstop=4
