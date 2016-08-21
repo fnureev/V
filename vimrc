@@ -40,6 +40,8 @@ Plugin 'SirVer/ultisnips' " vim 7.4+
 Plugin 'honza/vim-snippets'
 Plugin 'sniphpets/sniphpets'
 
+Plugin 'arnaud-lb/vim-php-namespace'
+
 Plugin 'evidens/vim-twig'
 
 call vundle#end()
@@ -73,6 +75,9 @@ set cin " отступы в стиле Си
 " airline
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
+
+autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
+autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 
 " vim-tags
 let g:vim_tags_project_tags_command = "{CTAGS} -R {OPTIONS} {DIRECTORY} 2>/dev/null"
