@@ -146,6 +146,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_aggregate_errors = 1
 
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+let g:syntastic_php_phpcs_args='--standard=PSR2 -n'
 
 " fugitive
 nmap gs :Gstatus<CR>
