@@ -41,6 +41,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'sniphpets/sniphpets'
 
 Plugin 'arnaud-lb/vim-php-namespace'
+Plugin 'Valloric/YouCompleteMe' " https://github.com/Valloric/YouCompleteMe#full-installation-guide
 
 Plugin 'evidens/vim-twig'
 
@@ -63,6 +64,9 @@ endtry
 
 " PDV
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+
+let g:ycm_python_binary_path = '/usr/bin/python3'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 " табуляция
 set tabstop=4
