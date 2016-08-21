@@ -63,6 +63,8 @@ try
     colorscheme jellybeans
 catch
 endtry
+" psql support
+au BufRead /tmp/psql.edit.* set syntax=sql
 
 " PDV
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
