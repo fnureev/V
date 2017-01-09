@@ -16,10 +16,6 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 
-Plugin 'tobyS/vmustache'
-Plugin 'tobyS/pdv'
-Plugin 'adoy/vim-php-refactoring-toolbox'
-
 Plugin 'mhinz/vim-startify'
 
 Plugin 'scrooloose/syntastic' " pear install PHP_CodeSniffer + phpmd
@@ -31,17 +27,6 @@ Plugin 'szw/vim-tags' " apt-get install exuberant-ctags
 Plugin 'majutsushi/tagbar'
 
 Plugin 'rking/ag.vim' " apt-get install silversearcher-ag
-
-Plugin 'joonty/vdebug' " sudo pecl install xdebug
-Plugin 'Shougo/vimproc' " vim +VimProcInstall +qall
-Plugin 'Shougo/vimshell.vim'
-
-Plugin 'SirVer/ultisnips' " vim 7.4+
-Plugin 'honza/vim-snippets'
-Plugin 'sniphpets/sniphpets'
-
-Plugin 'arnaud-lb/vim-php-namespace'
-Plugin 'Valloric/YouCompleteMe' " https://github.com/Valloric/YouCompleteMe#full-installation-guide
 
 Plugin 'evidens/vim-twig'
 
@@ -65,12 +50,6 @@ catch
 endtry
 " psql support
 au BufRead /tmp/psql.edit.* set syntax=sql
-
-" PDV
-let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
-
-let g:ycm_python_binary_path = '/usr/bin/python3'
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 " nerdcommenter
 let g:NERDSpaceDelims = 1
@@ -101,12 +80,6 @@ set updatetime=950
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_map_keys = 0
 
-" UltiSnips
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsEditSplit="vertical"
-
 " Startify
 let g:startify_change_to_vcs_root = 1
 let g:startify_session_persistence = 1
@@ -114,9 +87,6 @@ let g:startify_bookmarks = ['~/.vim/vimrc','~/.zshrc','~/.oh-my-zsh/custom/theme
 
 " NERDTree
 nmap <Leader>n :NERDTree<CR>
-
-" VimShell
-let g:vimshell_split_command = 'vsplit'
 
 " Xdebug
 let g:vdebug_options = {}
