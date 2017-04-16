@@ -23,9 +23,6 @@ Plugin 'scrooloose/syntastic' " pear install PHP_CodeSniffer + phpmd
 Plugin 'tpope/vim-fugitive' " sudo apt-get install git
 Plugin 'airblade/vim-gitgutter'
 
-Plugin 'szw/vim-tags' " apt-get install exuberant-ctags
-Plugin 'majutsushi/tagbar'
-
 Plugin 'rking/ag.vim' " apt-get install silversearcher-ag
 
 Plugin 'evidens/vim-twig'
@@ -71,9 +68,6 @@ let g:airline_right_sep = ''
 
 autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
 autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
-
-" vim-tags
-let g:vim_tags_project_tags_command = "phpctags -f .git/tags --fields=+l -R {DIRECTORY} 2>/dev/null"
 
 " gitgutter
 set updatetime=950
