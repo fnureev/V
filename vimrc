@@ -31,6 +31,8 @@ Plugin 'scrooloose/nerdcommenter'
 
 Plugin 'fatih/vim-go'
 
+Plugin 'AndrewRadev/splitjoin.vim'
+
 call vundle#end()
 filetype plugin indent on
 
