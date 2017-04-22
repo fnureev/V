@@ -29,6 +29,8 @@ Plugin 'evidens/vim-twig'
 
 Plugin 'scrooloose/nerdcommenter'
 
+Plugin 'fatih/vim-go'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -53,6 +55,9 @@ let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 let g:NERDTrimTrailingWhitespace = 1
 let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+" vim-go
+let g:go_list_type = "quickfix"
 
 " табуляция
 set tabstop=4
