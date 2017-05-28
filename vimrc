@@ -240,3 +240,6 @@ command WQ wq
 command Wq wq
 command W w
 command Q q
+
+map <C-n> :lnext<CR>
+map <C-p> :lprevious<CR>
