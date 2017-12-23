@@ -23,7 +23,7 @@ Plugin 'scrooloose/syntastic' " pear install PHP_CodeSniffer + phpmd
 Plugin 'tpope/vim-fugitive' " sudo apt-get install git
 Plugin 'airblade/vim-gitgutter'
 
-Plugin 'rking/ag.vim' " apt-get install silversearcher-ag
+Plugin 'mileszs/ack.vim' " apt-get install ack-grep
 
 Plugin 'evidens/vim-twig'
 
