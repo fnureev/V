@@ -34,6 +34,8 @@ Plugin 'fatih/vim-go'
 
 Plugin 'AndrewRadev/splitjoin.vim'
 
+Plugin 'qpkorr/vim-bufkill'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -76,6 +78,9 @@ let g:airline_right_sep = ''
 
 autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
 autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
+
+" vim buffkill
+nmap <Leader>w :BD<CR>
 
 " gitgutter
 set updatetime=950
