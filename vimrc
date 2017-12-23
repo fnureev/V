@@ -8,6 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'nanotech/jellybeans.vim'
 
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-unimpaired'
 
 Plugin 'kien/ctrlp.vim'
 Plugin 'tacahiroy/ctrlp-funky'
